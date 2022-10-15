@@ -11,6 +11,7 @@ const linkStyles = {
 };
 
 function Navbar({ setIsLoggedIn }) {
+  //
   const history = useHistory();
 
   function handleLogout() {
@@ -28,7 +29,7 @@ function Navbar({ setIsLoggedIn }) {
         style={linkStyles}
         /* add prop for activeStyle */
         activeStyle={{
-          background: "darkblue",
+          background: "olive",
         }}
       >
         Home
